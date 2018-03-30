@@ -21,17 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/白奇龙/MyLib'
+  s.homepage         = 'https://github.com/bql88601485'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '白奇龙' => '88601485@qq.com' }
-  s.source           = { :git => 'https://github.com/白奇龙/MyLib.git', :tag => s.version.to_s }
+  s.author           = { 'bql88601485' => '88601485@qq.com' }
+  s.source           = { :git => 'https://github.com/bql88601485/MyLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MyLib/Classes/**/*'
   
+  #所需的framework，多个用逗号隔开
+  s.frameworks = 'UIKit', 'Foundation'
+
   # s.resource_bundles = {
   #   'MyLib' => ['MyLib/Assets/*.png']
   # }
