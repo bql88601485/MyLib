@@ -7,7 +7,7 @@
 //
 
 #import "BAIAppDelegate.h"
-
+#import "SSignalKit.h"
 @implementation BAIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
